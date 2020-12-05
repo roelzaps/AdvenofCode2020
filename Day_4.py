@@ -43,5 +43,4 @@ for i in range(0,len(valid_passport)):
             
     except:
         continue
-
 print(f'there are {count2} valid passport base on field values')
