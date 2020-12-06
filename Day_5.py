@@ -36,8 +36,10 @@ def seat_number(code):
 
 seats = list(map(seat_number,data))
 seat_id = sorted(list(map(lambda r: r[0] * 8 + r[1], seats)))
+
 # Part 1 answer
 print('the Max Seat id is ', max(seat_id))
+
 
 # Part 2
 seat_range = [*range(seat_id[0],seat_id[len(seat_id)-1]+1)]
